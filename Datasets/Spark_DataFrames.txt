@@ -1,1 +1,5 @@
+# Read data into a spark dataframe
+
+df = spark.read.json("path")
+df.show()                    
 
